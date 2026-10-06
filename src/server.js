@@ -108,7 +108,7 @@ if (require.main === module) {
 
     app.listen(port, (error) => {
         if (error) {
-            console.error("Unable to start server:", error);
+            console.error("Unable to start server some problem occurred:", error);
             process.exitCode = 1;
             return;
         }
